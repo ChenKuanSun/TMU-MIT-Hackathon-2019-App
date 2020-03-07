@@ -1,0 +1,5 @@
+<table *ngIf="patientData$ | async as patientData">
+  <ng-container *ngIf="showDataChart$ | async">
+    <app-my-line-chart></app-my-line-chart>
+  </ng-container>
+</table>

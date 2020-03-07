@@ -1,0 +1,17 @@
+<mat-card class="example-card">
+  <mat-card-header>
+    <mat-card-title>
+      <div>Team 6</div>
+      <div class="img-container">
+        <img [src]="'assets/logo.png'">
+      </div>
+    </mat-card-title>
+
+  </mat-card-header>
+  <mat-card-content>
+    <app-dashboard></app-dashboard>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-flat-button color="primary" (click)="predict()">Predict</button>
+  </mat-card-actions>
+</mat-card>
